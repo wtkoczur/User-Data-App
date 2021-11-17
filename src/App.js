@@ -47,9 +47,9 @@ function App() {
             <Route  path="/dialog">
               <DialogApp />
             </Route>
-            <Route  path="/snackbar">
+            {/* <Route  path="/snackbar">
               <SnackApp />
-            </Route>
+            </Route> */}
           </Switch>
         <Footer />
       </div>
