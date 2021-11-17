@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./dialog.css";
 
 const DialogTab = ({ isActive, title, children }) => {
   if (isActive) {

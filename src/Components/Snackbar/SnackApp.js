@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Snackbar from './Snackbar'
 import OpenBtn from './OpenBtn'
-import "./styles.css";
+import "./Snackbar.css";
 
 
 function SnackApp() {

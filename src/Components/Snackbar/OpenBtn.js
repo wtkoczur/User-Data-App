@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./Snackbar.css";
 
 const OpenBtn = ({ OpenSnk }) => {
     return(
