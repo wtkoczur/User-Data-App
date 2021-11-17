@@ -1,0 +1,85 @@
+{
+    "users": [
+        {
+            "name": "Theodore Walker",
+            "age": "53",
+            "position": "boss",
+            "email" : "TheodoreTVoss@teleworm.us",
+            "phone": "256-363-7835",
+            "id": "1"
+        },
+        {
+            "name": "Phyllis Terry",
+            "age": "24",
+            "position": "manager",
+            "email" : "PhylldTClayton@rhyta.com",
+            "phone": "662-845-4094",
+            "id": "2"
+        },
+        {
+            "name": "Eddie Colon",
+            "age": "34",
+            "position": "consultant",
+            "email" : "DavidTClayton@rhyta.com",
+            "phone": "35-2553-463",
+            "id": "3"
+        },
+        {
+            "name": "Ava Stokes",
+            "age": "33",
+            "position": "technician",
+            "email" : "AvaStokes@rhyta.com",
+            "phone": "812-702-7095",
+            "id": "4"
+        },
+        {
+            "name": "Laurel Jackson",
+            "age": "25",
+            "position": "operator",
+            "email" : "LaurelReeve@teleworm.us",
+            "phone": "353-5573-44",
+            "id": "5"
+        },
+        {
+            "name": "Jeff Pettiford",
+            "age": "33",
+            "position": "assistant",
+            "email": "jpettiford6i@geocities.com",
+            "phone": "256-363-7835",
+            "id": "6"
+        },
+        {
+            "name": "Jeff Enstone",
+            "age": "24",
+            "position": "manager",
+            "email": "jenstone6r@pbs.org",
+            "phone": "742-845-4094",
+            "id": "7"
+        },
+        {
+            "name": "Boothe Buer",
+            "age": "53",
+            "position": "consultant",
+            "email": "bbuer69@aol.com",
+            "phone": "75-2553-463",
+            "id": "8"
+        },
+        {
+            "name": "Fae Hornig",
+            "age": "63",
+            "position": "technician",
+            "email": "fhornig67@nydailynews.com",
+            "phone": "368-702-7095",
+            "id": "9"
+        },
+        {
+            "name": "Dorrie Bierton",
+            "age": "25",
+            "position": "operator",
+            "email": "dbierton66@quantcast.com",
+            "phone": "92-5643-44",
+            "id": "10"
+        }
+        
+    ]
+}

@@ -1,0 +1,12 @@
+.snackApp {
+    text-align: center;
+    min-height: 800px;
+    margin-top: 60px
+}
+
+.snackBtn {
+    margin-top: 60px;
+    padding: 5px 14px;
+    font-size: 18px;
+    border-radius: 14px;
+}
