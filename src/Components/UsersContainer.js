@@ -12,10 +12,17 @@ const UsersContainer = ({ setUserState }) => {
     const [ inputValue, setInputValue ] = useState('');
 
     useEffect(() => {
-        fetch('users.json')
+        //fetch('users.json')
+        fetch("users.json", {
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json"
+          }
+        })
         .then(res => {
             return res.json()
         })
+
         .then(data => {
             setList(data.users)
             setChosenUser(data.users)
@@ -40,9 +47,6 @@ const UsersContainer = ({ setUserState }) => {
             const cloneUser = users.filter((user) =>
             user.name.toString().toLowerCase().includes(inputValue.toString().toLowerCase()));
             setChosenUser(cloneUser);
-            // if(cloneUser.length <= 0){
-            //     setChosenUser('null')
-            // }
         }
     };
 

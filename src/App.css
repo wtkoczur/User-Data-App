@@ -1,6 +1,7 @@
 .App {
     background: #e8e9eb;
     min-height: 101vh;
+    width: 100%;
 }
 
 .link {
