@@ -12,7 +12,6 @@ const UsersContainer = ({ setUserState }) => {
     const [ inputValue, setInputValue ] = useState('');
 
     useEffect(() => {
-        //fetch('users.json')
         fetch("users.json", {
           headers: {
             "Content-Type": "application/json",
