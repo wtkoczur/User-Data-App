@@ -8,13 +8,16 @@ const UserProfile = ({ data }) => {
             <div className="userProfile">
                 <h3>Name: {data.name}</h3>
                 <p>Age: {data.age}</p>
+                <p>Gender: {data.gender}</p>
+                <p>Company: {data.company}</p>
                 <p>Email: <Link style={{ textDecoration: 'none' }}>{data.email}</Link></p>
                 <p>Phone: {data.phone}</p>
-                <p>Position: {data.position}</p>
+                <p>Address: {data.address}</p>
+                <p>About: {data.about}</p>
+
                 <Link to="users" style={{ textDecoration: 'none', fontSize: '14px' }}>Back</Link>
             </div>
         </div>
-        
     )
 }
 
