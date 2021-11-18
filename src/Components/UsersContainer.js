@@ -56,7 +56,7 @@ const UsersContainer = ({ setUserState }) => {
         setUserState(clicked)
     }
 
-//      another fetch method notation
+    // another fetch method notation
     //
     // const getUsers = () => {
     //     fetch("users.json", {
