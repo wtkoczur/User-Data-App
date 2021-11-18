@@ -78,7 +78,6 @@ const UsersContainer = ({ setUserState }) => {
     //     getUsers();
     //   }, []);
 
-
     return(
         <div className="title">
 
